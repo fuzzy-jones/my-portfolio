@@ -1,1 +1,42 @@
 
+/* header */
+header {
+    background: url(../images/portfolio_header.jpg) no-repeat;
+    /* height: 600px; */
+    width: 100%;
+    background-size: cover;
+    background-color: #000;
+    text-align: center;
+    color: white;
+}
+
+.display-4 {
+    color: white;
+    font-size: 85px;
+    /* padding-top: 100px; */
+}
+
+.lead {
+    font-size: 36px;
+}
+
+/* about */
+#about-head {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#about-p {
+    padding-top: 10px;
+}
+
+/* portfolio */
+.portfolio {
+    background-color: lightgray;
+}
+
+#portfolio-head {
+    padding-top: 50px;
+    text-align: center;
+}
+
