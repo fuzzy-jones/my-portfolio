@@ -1,42 +1,98 @@
 
 /* header */
 header {
-    background: url(../images/portfolio_header.jpg) no-repeat;
-    /* height: 600px; */
-    width: 100%;
-    background-size: cover;
-    background-color: #000;
+    position: relative;
     text-align: center;
     color: white;
 }
 
+header img {
+    width: 100%;
+    height: auto;
+}
+
 .display-4 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-size: 85px;
-    /* padding-top: 100px; */
+    font-size: 72px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .lead {
-    font-size: 36px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 /* about */
+.about {
+    padding-bottom: 50px; 
+}
 #about-head {
     padding-top: 50px;
     text-align: center;
 }
 
 #about-p {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 /* portfolio */
 .portfolio {
-    background-color: lightgray;
+    background-color: rgb(213, 230, 215);
+}
+.portfolio .container {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    margin: auto;
 }
 
 #portfolio-head {
     padding-top: 50px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
+.card {
+    height: 250px;
+    position: relative;
+    width: 250px;
+    margin-bottom: 50px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+}
+
+
+
+/* contact */
+.contact {
+    padding-bottom: 50px;
+}
+#contact-head {
+    padding-top: 50px;
+    text-align: center;
+}
+.contact p {
+    padding-top: 20px;
+}
+
+/* footer */
+footer {
+    padding: 20px 0px 10px 0px;
+    background-color: gray;
+    color: white
+}
