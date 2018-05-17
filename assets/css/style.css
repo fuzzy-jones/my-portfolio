@@ -37,10 +37,10 @@ header img {
 
 /* about */
 .about {
-    padding-bottom: 50px; 
+    padding-bottom: 75px; 
 }
 #about-head {
-    padding-top: 50px;
+    padding-top: 75px;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -52,6 +52,7 @@ header img {
 /* portfolio */
 .portfolio {
     background-color: rgb(213, 230, 215);
+    padding-bottom: 25px; 
 }
 
 .portfolio .container {
@@ -66,7 +67,7 @@ header img {
 }
 
 #portfolio-head {
-    padding-top: 50px;
+    padding-top: 75px;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -98,10 +99,10 @@ header img {
 
 /* contact */
 .contact {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 #contact-head {
-    padding-top: 50px;
+    padding-top: 75px;
     text-align: center;
     padding-bottom: 10px; 
 }
@@ -213,7 +214,7 @@ a.animated-button.victoria-three:hover:after {
 /* footer */
 footer {
     padding: 20px 0px 10px 0px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(211, 211, 211);
     color: black;
 }
 
