@@ -37,10 +37,10 @@ header img {
 
 /* about */
 .about {
-    padding-bottom: 75px; 
+    padding-bottom: 100px; 
 }
 #about-head {
-    padding-top: 75px;
+    padding-top: 100px;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -52,7 +52,7 @@ header img {
 /* portfolio */
 .portfolio {
     background-color: rgb(213, 230, 215);
-    padding-bottom: 25px; 
+    padding-bottom: 50px; 
 }
 
 .portfolio .container {
@@ -67,7 +67,7 @@ header img {
 }
 
 #portfolio-head {
-    padding-top: 75px;
+    padding-top: 100px;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -84,8 +84,12 @@ header img {
     transform: scale(1.05);
 }
 
+#portfolio1 img {
+    padding-top: 2px;
+}
+
 #portfolio2 img {
-    padding-top: 45px;
+    padding-top: 50px;
 }
 
 #portfolio3 img {
@@ -99,10 +103,10 @@ header img {
 
 /* contact */
 .contact {
-    padding-bottom: 75px;
+    padding-bottom: 100px;
 }
 #contact-head {
-    padding-top: 75px;
+    padding-top: 100px;
     text-align: center;
     padding-bottom: 10px; 
 }
