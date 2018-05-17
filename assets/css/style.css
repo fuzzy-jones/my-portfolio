@@ -52,6 +52,7 @@ header img {
 .portfolio {
     background-color: rgb(213, 230, 215);
 }
+
 .portfolio .container {
     height: 100%;
     display: flex;
@@ -77,6 +78,17 @@ header img {
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
 }
 
+#portfolio1:hover, #portfolio2:hover, #portfolio3:hover, #portfolio4:hover {
+    transform: scale(1.05);
+}
+
+#portfolio3 img {
+    padding-top: 20px;
+}
+
+#portfolio4 img {
+    padding-top: 60px;
+}
 
 
 /* contact */
@@ -94,6 +106,16 @@ header img {
 /* footer */
 footer {
     padding: 20px 0px 10px 0px;
-    background-color: gray;
-    color: white
+    background-color: rgb(187, 187, 187);
+    color: white;
+}
+
+/* modal */
+.modal-body {
+    text-align: center;
+    color: black;
+}
+
+.modal-text {
+    padding-top: 20px;
 }
