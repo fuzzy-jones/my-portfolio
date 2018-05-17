@@ -108,7 +108,6 @@ header img {
 
 .contact-text {
     padding-top: 20px;
-    color: black;
     text-align: center;
     font-size: 24px;
 }
@@ -214,8 +213,8 @@ a.animated-button.victoria-three:hover:after {
 /* footer */
 footer {
     padding: 20px 0px 10px 0px;
-    background-color: rgb(187, 187, 187);
-    color: white;
+    background-color: rgb(230, 230, 230);
+    color: black;
 }
 
 /* modal */
