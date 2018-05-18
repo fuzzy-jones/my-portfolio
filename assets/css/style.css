@@ -17,7 +17,7 @@ header img {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 72px;
+    font-size: 140px;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
@@ -26,13 +26,18 @@ header img {
 .lead {
     color: white;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 32px;
+    font-size: 60px;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.35),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* navbar */
+.bg-primary {
+    background-color: white;
 }
 
 /* about */
@@ -272,3 +277,178 @@ a.button2:hover {
     color: rgba(255, 255, 255, 0.85);
     box-shadow: black 0 80px 0px 2px inset;
 }
+
+/* media queries */
+
+@media all and (max-width: 2300px) { 
+    .display-4 {
+        font-size: 120px
+    }
+    .lead {
+        font-size: 55px;
+        top: 38%;
+    }
+}
+
+@media all and (max-width: 1900px) { 
+    .display-4 {
+        font-size: 110px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 50px;
+        top: 40%;
+    }
+}
+
+@media all and (max-width: 1700px) { 
+    .display-4 {
+        font-size: 100px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 45px;
+        top: 40%;
+    }
+}
+
+@media all and (max-width: 1500px) { 
+    .display-4 {
+        font-size: 90px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 40px;
+        top: 40%;
+    }
+}
+
+@media all and (max-width: 1300px) { 
+    .display-4 {
+        font-size: 72px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 38px;
+        top: 40%;
+    }
+}
+
+@media all and (max-width: 1200px) { 
+   .portfolio .container {
+       max-width: 800px;
+   }
+}
+
+@media all and (max-width: 1100px) { 
+    .display-4 {
+        font-size: 68px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 36px;
+        top: 42%;
+    }
+}
+
+@media all and (max-width: 950px) { 
+    .display-4 {
+        font-size: 60px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 34px;
+        top: 42%;
+    }
+}
+
+@media all and (max-width: 900px) { 
+    .display-4 {
+        font-size: 54px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 30px;
+        top: 40%;
+    }
+}
+
+@media all and (max-width: 780px) { 
+    .display-4 {
+        font-size: 42px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 22px;
+        top: 40%;
+    }
+}
+
+@media all and (max-width: 620px) { 
+    .display-4 {
+        font-size: 38px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 20px;
+        top: 42%;
+    }
+}
+
+@media all and (max-width: 570px) { 
+    .display-4 {
+        font-size: 32px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 18px;
+        top: 42%;
+    }
+}
+
+@media all and (max-width: 492px) { 
+    .display-4 {
+        font-size: 28px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 18px;
+        top: 42%;
+    }
+}
+
+@media all and (max-width: 440px) { 
+    .display-4 {
+        font-size: 24px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 14px;
+        top: 45%;
+    }
+}
+
+@media all and (max-width: 390px) { 
+    .display-4 {
+        font-size: 22px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 12px;
+        top: 45%;
+    }
+}
+
+@media all and (max-width: 363px) { 
+    .display-4 {
+        font-size: 20px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 12px;
+        top: 45%;
+    }
+}
+
+
+
