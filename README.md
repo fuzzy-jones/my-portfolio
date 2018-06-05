@@ -1,3 +1,3 @@
 # my-portfolio
 
-[My Portfolio](fuzzyjones.me)
+[My Portfolio](http://fuzzyjones.me/)
