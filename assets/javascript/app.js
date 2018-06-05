@@ -17,4 +17,12 @@ $( document ).ready(function() {
         $("#modal4").modal('show');
     })
 
+    $("#portfolio5").click(function() {
+        $("#modal5").modal('show');
+    })
+
+    $("#portfolio6").click(function() {
+        $("#modal6").modal('show');
+    })
+
 });
