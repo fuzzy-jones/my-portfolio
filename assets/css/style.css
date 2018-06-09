@@ -90,10 +90,6 @@ header img {
     transform: scale(1.05);
 }
 
-#portfolio1 img {
-    padding-top: 2px;
-}
-
 #portfolio2 img {
     padding-top: 50px;
 }
@@ -106,9 +102,9 @@ header img {
     padding-top: 60px;
 }
 
-/* #portfolio5 img {
-   
-} */
+#portfolio5 img {
+    padding-top: 2px;
+}
 
 #portfolio6 img {
     padding-top: 30px;
