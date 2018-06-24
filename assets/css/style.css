@@ -18,7 +18,7 @@ header img {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 140px;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
@@ -30,7 +30,7 @@ header img {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.35),
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
@@ -420,6 +420,9 @@ a.button2:hover {
         font-size: 18px;
         top: 42%;
     }
+    #about-head, #portfolio-head, #contact-head{
+        padding-top: 60px;
+    }
 }
 
 @media all and (max-width: 440px) { 
@@ -428,29 +431,40 @@ a.button2:hover {
         top: 27%;
     }
     .lead {
-        font-size: 14px;
+        font-size: 16px;
         top: 45%;
     }
 }
 
 @media all and (max-width: 390px) { 
     .display-4 {
-        font-size: 22px;
+        font-size: 23px;
         top: 27%;
     }
     .lead {
-        font-size: 12px;
+        font-size: 14px;
         top: 45%;
     }
 }
 
-@media all and (max-width: 363px) { 
+@media all and (max-width: 376px) { 
     .display-4 {
-        font-size: 20px;
+        font-size: 21px;
         top: 27%;
     }
     .lead {
-        font-size: 12px;
+        font-size: 14px;
+        top: 45%;
+    }
+}
+
+@media all and (max-width: 350px) { 
+    .display-4 {
+        font-size: 19px;
+        top: 27%;
+    }
+    .lead {
+        font-size: 14px;
         top: 45%;
     }
 }
